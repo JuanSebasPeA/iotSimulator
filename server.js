@@ -29,6 +29,16 @@ app.get("/", (req, res) => {
   res.render("index.html");
 });
 
+app.get("/consejos", (req, res) => {
+  res.render("index.html");
+}
+);
+
+app.get("/metricas-consumo", (req, res) => {
+  res.render("index.html");
+}
+);
+
 app.get("/data", async (req, res) => {
   try {
     const consumos = await Consumo.find();
