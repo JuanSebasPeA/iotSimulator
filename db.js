@@ -5,7 +5,7 @@ require('colors')
 const connectDB = async () => {
     console.log("Connecting with mongodb".bgBlue);
     try {
-        await mongoose.connect('mongodb://mongo:QSm2onYL73InmTQdGDEO@containers-us-west-131.railway.app:5742', {
+        await mongoose.connect("mongodb://mongo:z4q0xkhAOHKW92GHQi2r@containers-us-west-31.railway.app:7378", {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
